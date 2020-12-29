@@ -7,4 +7,14 @@ def home():
 
 @app.route("/webhook",methods=['POST'])
 def responseCreator():
-    return "Ovo je webhook"
+    return {
+            "fulfillmentMessages": [
+                {
+                "text": {
+                    "text": [
+                    "Text response from webhook"
+                    ]
+                }
+                }
+            ]
+            }
