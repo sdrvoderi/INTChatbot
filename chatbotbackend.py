@@ -1,5 +1,6 @@
 from flask import Flask, request
 import json
+import csv
 app = Flask(__name__)
 
 @app.route("/")
@@ -36,4 +37,19 @@ def intentRecognizer(queryResults,intent):
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
-     return f"{vrstaStudija} ima smjerove ...(backend)"                          
+     smjerovi = pronadiSmjerove(vrstaStudija)
+     return f"{vrstaStudija} courses are {smjerovi}"  
+
+def pronadiSmjerove(vrstaStudija):
+     pronadeniSmjerovi = []
+     odgovor = ""
+     with open('data/elementaryData.csv',newline='') as csvfile:
+         reader = csv.DictReader(csvfile, delimeter=',')
+         for zapis in reader:
+             if zapis['Vrsta_studija'] == vrstaStudija:
+                 if zapis['Studij'] not in pronadeniSmjerovi:
+                     pronadeniSmjerovi.append(zapis['Studij'])
+                     odgovor += zapis['Studij']+", "
+     return odgovor                
+                     
+

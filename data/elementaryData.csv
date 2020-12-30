@@ -1,0 +1,517 @@
+Vrsta_studija,Studij,Godina_studija,Semestar,ISVU_sifra,Naziv,Nastavnici,ECTS,Obavezan
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47218,Engleski jezik 1,Kovačić Andreja,3,NE
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47214,Informatika 1,Balaban Igor Sobodić Aleksandra Zlatović Miran Filipović Danijel,6,DA
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47219,Matematika 1,Divjak Blaženka Erjavec Zlatko Jakuš Marija Klemenčić Damjan Laljek Mihaela Maretić Marcel,6,DA
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47222,Organizacija,Malbašić Ivan Jelaković Anamarija Posarić Nikolina Brčić Ruža,6,DA
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47229,Poslovno komuniciranje,Bubaš Goran Vidaček-Hainš Violeta Čižmešija Antonela Kutnjak Ana Plantak Vukovac Dijana,3,NE
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47222,Njemački jezik 1,Bunić Branko,3,NE
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,95807,Tjelesna i zdravstvena kultura 1,Vučić Damir,0,DA
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47224,Osnove ekonomije,Detelj Kristina Konecki Irena Vuković Ksenija Bubanić Marijana Fojs Ivana Korent Dina Maurović Benko Željka Viljevac Marina,4,DA
+preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47227,Statistika,Dobša Jasminka Šimić Diana Buhin Pandur Maja,5,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128638,Matematika za ekonomiste 1,Erjavec Zlatko Horvat Damir Jakuš Marija Žugec Bojan,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128637,Osnove ekonomije,Vuković Ksenija Bubanić Marijana Detelj Kristina Konecki Irena Korent Dina Šmaguc Tamara,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128643,Osnove poduzetništva,Detelj Kristina Kovšca Vladimir Fojs Ivana Novak Ema Konecki Irena Viljevac Marina,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128641,Poslovno komuniciranje,Bubaš Goran Vidaček-Hainš Violeta Čižmešija Antonela Kućar Maja,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128692,Tjelesna i zdravstvena kultura 1,Vučić Damir,1,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128640,Trgovačko pravo,Klačmer Čalopa Marina Horak Hana Šafranko Zvonimir Dumančić Kosjenka,6,DA
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93066,Analiza i razvoj programa,Stapić Zlatko Vrček Neven Tomaš Boris,6,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,214595,Deklarativno programiranje,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,6,DA
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93105,Didaktika 1,Hajdin Goran,4,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93106,Diskretne strukture s teorijom grafova,Divjak Blaženka Maretić Marcel Horvat Damir,6,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93107,Korporacijsko upravljanje,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,5,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93109,Opća pedagogija,Hajdin Goran Ninčević Marjan,4,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93110,Operacijski sustavi 2,Ivković Nikola Magdalenić Ivan Milić Luka,5,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93111,Organizacijska teorija,Fabac Robert Žajdela Hrustek Nikolina,4,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93112,Osnovne opće i razvojne psihologije,Brajša-Žganec Andreja Zlatić Luka,5,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93113,Primjene metode istraživanja u društvenim znanostima,Šimić Diana Gusić Jelena,4,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93114,Računalom posredovana komunikacija,Bubaš Goran Čižmešija Antonela Konecki Mario Bosilj Neven Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93115,Sigurnosti informacijskih sustava,Grd Petra Tomičić Igor Bača Miroslav Gerić Sandro,5,DA
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93116,Strategijski menadžment,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,4,NE
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93117,Teorija baza podataka,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav Maleković Mirko,5,DA
+diplomski sveučilišni,Baze podataka i baze znanja,1,1,93118,Vanjskotrgovinsko poslovanje,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93066,Analiza i razvoj programa,Stapić Zlatko Vrček Neven Tomaš Boris,6,DA
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,214595,Deklarativno programiranje,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,6,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93105,Didaktika 1,Hajdin Goran,4,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93106,Diskretne strukture s teorijom grafova,Divjak Blaženka Maretić Marcel Horvat Damir,6,DA
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93107,Korporacijsko upravljanje,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,5,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93109,Opća pedagogija,Hajdin Goran Ninčević Marjan,4,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93110,Operacijski sustavi 2,Ivković Nikola Magdalenić Ivan Milić Luka,5,DA
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93111,Organizacijska teorija,Fabac Robert Žajdela Hrustek Nikolina,4,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93112,Osnovne opće i razvojne psihologije,Brajša-Žganec Andreja Zlatić Luka,5,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93113,Primjene metode istraživanja u društvenim znanostima,Šimić Diana Gusić Jelena,4,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93114,Računalom posredovana komunikacija,Bubaš Goran Čižmešija Antonela Konecki Mario Bosilj Neven Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93115,Sigurnosti informacijskih sustava,Grd Petra Tomičić Igor Bača Miroslav Gerić Sandro,5,DA
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93116,Strategijski menadžment,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,4,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93117,Teorija baza podataka,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav Maleković Mirko,5,NE
+diplomski sveučilišni,Informacijsko i programsko inžinjerstvo,1,1,93118,Vanjskotrgovinsko poslovanje,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93066,Analiza i razvoj programa,Stapić Zlatko Vrček Neven Tomaš Boris,6,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,214595,Deklarativno programiranje,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,6,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93105,Didaktika 1,Hajdin Goran,4,DA
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93106,Diskretne strukture s teorijom grafova,Divjak Blaženka Maretić Marcel Horvat Damir,6,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93107,Korporacijsko upravljanje,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,5,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93109,Opća pedagogija,Hajdin Goran Ninčević Marjan,4,DA
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93110,Operacijski sustavi 2,Ivković Nikola Magdalenić Ivan Milić Luka,5,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93111,Organizacijska teorija,Fabac Robert Žajdela Hrustek Nikolina,4,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93112,Osnovne opće i razvojne psihologije,Brajša-Žganec Andreja Zlatić Luka,5,DA
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93113,Primjene metode istraživanja u društvenim znanostima,Šimić Diana Gusić Jelena,4,DA
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93114,Računalom posredovana komunikacija,Bubaš Goran Čižmešija Antonela Konecki Mario Bosilj Neven Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93115,Sigurnosti informacijskih sustava,Grd Petra Tomičić Igor Bača Miroslav Gerić Sandro,5,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93116,Strategijski menadžment,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,4,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93117,Teorija baza podataka,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav Maleković Mirko,5,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,93118,Vanjskotrgovinsko poslovanje,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+diplomski sveučilišni,Informatika u obrazovanju,1,1,214605,Poučavanje programiranja,Lovrenčić Alen,4,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93066,Analiza i razvoj programa,Stapić Zlatko Vrček Neven Tomaš Boris,6,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,214595,Deklarativno programiranje,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,6,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93105,Didaktika 1,Hajdin Goran,4,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93106,Diskretne strukture s teorijom grafova,Divjak Blaženka Maretić Marcel Horvat Damir,6,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93107,Korporacijsko upravljanje,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,5,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93109,Opća pedagogija,Hajdin Goran Ninčević Marjan,4,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93110,Operacijski sustavi 2,Ivković Nikola Magdalenić Ivan Milić Luka,5,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93111,Organizacijska teorija,Fabac Robert Žajdela Hrustek Nikolina,4,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93112,Osnovne opće i razvojne psihologije,Brajša-Žganec Andreja Zlatić Luka,5,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93113,Primjene metode istraživanja u društvenim znanostima,Šimić Diana Gusić Jelena,4,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93114,Računalom posredovana komunikacija,Bubaš Goran Čižmešija Antonela Konecki Mario Bosilj Neven Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93115,Sigurnosti informacijskih sustava,Grd Petra Tomičić Igor Bača Miroslav Gerić Sandro,5,DA
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93116,Strategijski menadžment,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,4,DA
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93117,Teorija baza podataka,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav Maleković Mirko,5,NE
+diplomski sveučilišni,Organizacija poslovnih sustava,1,1,93118,Vanjskotrgovinsko poslovanje,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+diplomski sveučilišni,Ekonomika poduzetništva,1,1,76540,Analiza poslovnih odluka,Begičević Ređep Nina Kadoić Nikola Hunjak Tihomir,6,DA
+diplomski sveučilišni,Ekonomika poduzetništva,1,1,76545,Ekonomija za poduzetnika,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,6,DA
+diplomski sveučilišni,Ekonomika poduzetništva,1,1,200740,Marketinško upravljanje bazama podataka,Dobrinić Damir Gregurec Iva,6,DA
+diplomski sveučilišni,Ekonomika poduzetništva,1,1,76546,Organizacijsko ponašanje,Malbašić Ivan Jelaković Anamarija Posarić Nikolina,6,DA
+diplomski sveučilišni,Ekonomika poduzetništva,1,1,76538,Primijenjena mikroekonomija,Vuković Ksenija Bubanić Marijana Korent Dina,6,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,46647,Engleski jezik 1,Kovačić Andreja,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,46644,Matematika,Jakuš Marija Maretić Marcel,6,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,46648,Njemački jezik 1,Bunić Branko,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,46642,Osnove ekonomije,Dobrinić Damir Vuković Ksenija Bubanić Marijana Gregurec Iva,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,46646,Poslovna ekonomija,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,148701,Poslovna informatika,Balaban Igor Filipović Danijel Sobodić Aleksandra Zlatović Miran,6,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,46645,Statistika,Dobša Jasminka Buhin Pandur Maja,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,1,1,95811,Tjelesna i zdravstvena kultura 1,Vučić Damir,0,DA
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45854,Artihtektura organizacija informacijskog doba,,6,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45845,Automatizirani razvoj aplikacija,Vrček Neven,6,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45855,Državna uprava i javne službe,,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45857,Elektroničko poslovanje,Vrček Neven,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45864,Europsko poslovno pravo,,6,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45863,Inteligentna organizacija,Kliček Božidar,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45856,Metode i alati za analizu odluke,Hunjak Tihomir,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45861,Mjerenje organizacijskih performansi,Dobrović Željko,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45853,Modeliranje i istraživanje složenih sustava,Dušak Vesna,6,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45851,Modeliranje poslovnih podataka,Dobrović Željko Dobrović Željko,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45846,Moderna ekonomika poslovanja,Dvorski Stjepan,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45848,Odabrana poglavlja linearne algebre i diskretne matematike,Divjak Blaženka,6,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45859,Poslovna strategija i politika,Cingula Marijan,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45860,Primijenjena teorija sustava,Vidačić Stjepan,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45850,Projektiranje poslovnih procesa,,6,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45866,Računalna sigurnost,Bača Miroslav,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45852,Referentni modeli i ERP sustavi,Strahonja Vjeran,6,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45858,Strateško planiranje informacijskih sustava,,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45847,Teorija organizacije poduzeća,,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45865,Upravljanje informacijskim resursima,Krakar Zdravko,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45862,Upravljanje virtuelnim organizacijama,,5,NE
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,1,45849,Znanost i umijeće suvremenog upravljanja,,6,NE
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,1,45480,Dioničko gospodarstvo,Orsag Silvije,6,NE
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,1,45478,Informacijski sustavi za poslovno upravljanje,Spremić Mario,9,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,1,45477,Menadžment poslovnih sustava,Cingula Marijan,9,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,1,82514,Modeliranje poslovnih podataka,,6,NE
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,1,45479,Upravljanje informatičkom tehnologijom,Krakar Zdravko,6,NE
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,1,80635,Upravljanje sigurnošću poslovnih informacijskih sustava,,6,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164073,Informacijsko ratovanje i računalni kriminal,Bača Miroslav Grd Petra,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164067,Primijenjena kriptografija i sustavi sigurnosti,Magdalenić Ivan Golub Marin,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164062,Revizija i kontrola informacijskih sustava,Kozina Melita Žgela Mario,6,DA
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164077,"Sigurnosna pohrana, arhiviranje i repozitoriji podataka",Hutinski Željko Schatten Markus,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164066,Sigurnost baza podataka,Schatten Markus,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164079,Sigurnost operacijskih sustava,Magdalenić Ivan Ivković Nikola,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164069,Sigurnost u elektroničkom poslovanju,Gerić Sandro Vrček Neven Andročec Darko Tomaš Boris,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164065,Sigurnost umreženih računalnih sustava,Magdalenić Ivan Ivković Nikola,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164075,Sigurnost web i poslužiteljskih aplikacija,Kermek Dragutin,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164071,Sustavi fizičke i logičke kontrole pristupa,Bača Miroslav Grd Petra,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164080,Testiranje sustava sigurnosti i etičko hakiranje,Kišasondi Tonimir,5,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164063,Upravljanje incidentima i računalna forenzika,Bača Miroslav Grd Petra,6,DA
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164060,Upravljanje rizicima u informacijskoj sigurnosti,Gerić Sandro Hutinski Željko,6,DA
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164061,Upravljanje sustavom informacijske sigurnosti,Hutinski Željko Mekovec Renata,6,DA
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,1,164076,Zaštita privatnosti u poslovnim sustavima,Mekovec Renata,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,164930,Digitalni repozitoriji,,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,164925,Dizajn nastave u e-okruženju,Erjavec Zlatko,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,164924,Elektronička obrazovna okruženja,Kermek Dragutin,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,164931,Informacijska pismenost u e-učenju,Kirinić Valentina,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,221406,Multimediji u e-učenju,Kliček Božidar,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,164922,Pedagogija u e-učenju,Pavlina Krešimir,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,164932,Primjena online jezičnih izvora,,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,1,164923,Psihološki i socijalni kontekst e-učenja,,5,DA
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,111925,Biometrija i računalna forenzika u informacijskim tehnologijama,Bača Miroslav Schatten Markus,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45241,Informacijsko društvo - odabrana poglavlja,Šimić Diana Vrček Neven,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45219,Konceptualno modeliranje složenih sustava,Dušak Vesna,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45220,Korporativno upravljanje u državnim i privatnim organizacijama,,9,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,80638,Kvantitativne metode za analizu složenih odluka,Begičević Ređep Nina Hunjak Tihomir,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45223,Metodologija informacijskog i programskog inženjerstva,Strahonja Vjeran Vrček Neven,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45224,Odabrana poglavlja elektroničkog poslovanja,Vrček Neven,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45218,Odabrana poglavlja iz instrukcijskog dizajna i mentoriranja u e-obrazovanju,Bubaš Goran Kermek Dragutin,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45221,Odabrana poglavlja iz metoda upravljanja troškovima,Dvorski Stjepan,9,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45251,Odabrana poglavlja iz upravljanja informacijskom tehnologijom,Šimić Diana Strahonja Vjeran Krakar Zdravko,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,127654,Odabrana poglavlja iz upravljanja organizacijom,Fabac Robert Klačmer Čalopa Marina Vidaček-Hainš Violeta,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45227,Odabrana poglavlja logike konflikata,Čubrilo Mirko Maleković Mirko,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,104571,Odabrana poglavlja primjene informacijske tehnologije,Dobša Jasminka Schatten Markus,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,117004,Odabrana poglavlja statističkih metoda u informacijskim znanostima,Dobša Jasminka Šimić Diana,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45225,Odabrana poglavlja teorije algoritama i teorije složenosti,Lovrenčić Alen,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45230,Odabrana poglavlja umjetne inteligencije,Lovrenčić Sandra Čubrilo Mirko Maleković Mirko,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45232,Odabrana poglavlja upravljanja znanjem,Lovrenčić Sandra Čubrilo Mirko Maleković Mirko,7,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45217,Strategija organizacijskog oblikovanja,Cingula Marijan,9,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,45222,Upravljanje strateškim marketingom,,9,NE
+poslijediplomski doktorski sveučilišni,Poslijediplomski doktorski studij Informacijske znanosti,1,1,80639,Znanstvenoistraživački rad u informacijskim znanostima,Šimić Diana,7,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133595,Didaktika,Hajdin Goran,8,DA
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133605,Metode pretraživanja i klasifikacija informacija,Kirinić Valentina,4,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133604,Nenasilno rješavanje sukoba,Ciglar Vesna,3,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133594,Opća pedagogija,Hajdin Goran Ninčević Marjan,4,DA
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133596,Osnove opće i razvojne psihologije,Brajša-Žganec Andreja Zlatić Luka,5,DA
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133597,Psihologija učenja i poučavanja,Brajša-Žganec Andreja Zlatić Luka,6,DA
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133607,Sigurnost interneta,Bača Miroslav Grd Petra,4,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133606,Upravljanje projektnim ciklusom,Divjak Blaženka Begičević Ređep Nina Spahić Amir,4,NE
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47231,Engleski jezik 2,Fara Višnja,3,NE
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47247,Informatika 2,Balaban Igor Filipović Danijel Hutinski Željko Zlatović Miran,5,NE
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47251,Komuniciranje u Organizaciji,Čižmešija Antonela Kutnjak Ana Plantak Vukovac Dijana,3,NE
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47233,Matematika 2,Divjak Blaženka Erjavec Zlatko Jakuš Marija Klemenčić Damjan Laljek Mihaela Žugec Bojan,6,DA
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47235,Njemački jezik 2,Bunić Branko,3,NE
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47237,Obrada teksta i slike,Kirinić Valentina,4,DA
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47240,Poslovna ekonomija,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Keglević Kozjak Suzana Lacković Vincek Zrinka Novak Ema,4,DA
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47244,Programiranje 1,Konecki Mario,5,DA
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47255,Teorija sustava,Pihir Igor Vidačić Stjepan,5,NE
+preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,95808,Tjelesna i zdravstvena kultura 2,Vučić Damir,0,DA
+preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128645,Matematika za ekonomiste 2,Erjavec Zlatko Horvat Damir Jakuš Marija,6,DA
+preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128642,Mikroekonomija,Vuković Ksenija Bubanić Marijana Fojs Ivana Korent Dina,6,DA
+preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128644,Organizacija i menadžment,Malbašić Ivan Jelaković Anamarija Posarić Nikolina Viljevac Marina,7,DA
+preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128639,Poslovna informatika,Balaban Igor Hutinski Željko Sobodić Aleksandra Zlatović Miran Oreški Dijana,6,DA
+preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128647,Poslovni engleski jezik 1,Kovačić Andreja,4,NE
+preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128646,Poslovni njemački jezik 1,Antolić Petak Andreja Bunić Branko,4,NE
+preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128693,Tjelesna i zdravstvena kultura 2,Vučić Damir,1,DA
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46651,Financijska matematika,Erjavec Zlatko Horvat Damir Žignić Lucija Žugec Petra,6,DA
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46654,Poslovno komuniciranje,Vidaček-Hainš Violeta Čižmešija Antonela Kućar Maja,4,NE
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46650,Programiranje,Lovrenčić Alen Konecki Mario Konecki Mladen Kudelić Robert Radošević Danijel Banić Bojan,5,DA
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46653,Računovodstvo,Keglević Kozjak Suzana Šestanj Perić Tanja,5,DA
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,95812,Tjelesna i zdravstvena kultura 2,Vučić Damir,0,DA
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,148722,Trgovačko pravo i pravo društava,Vojković Goran,4,NE
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46656,Upravljanje znanjem,Lovrenčić Sandra Sekovanić Vlatka,4,NE
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46652,Ured i uredsko poslovanje,Mekovec Renata Sabati Zvonimir Peras Dijana Kirinić Valentina,4,DA
+preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,148712,Uvod u operacijske sustave,Ivković Nikola Magdalenić Ivan Milić Luka Peras Marko Garafolić Nikola Popović Elvis,5,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93132,Didaktika 2,Hajdin Goran,4,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93120,Elektroničko i mobilno poslovanje,Gerić Sandro Vrček Neven,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93119,Fizičko oblikovanje baza podataka,Lovrenčić Alen Schatten Markus,5,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93122,Javni menadžment,Malbašić Ivan Posarić Nikolina Brčić Ruža,4,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93123,Napredne WEB tehnologije i servisi,Kermek Dragutin Novak Matija,7,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93124,Operacijska istraživanja 2,Žajdela Hrustek Nikolina Perši Nenad,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93125,Psihologija učenja i poučavanja,Brajša-Žganec Andreja Zlatić Luka,6,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,214597,Sigurnost interneta,Bača Miroslav Tomičić Igor,4,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,214598,Skladišta podataka i poslovna inteligencija,Rabuzin Kornelije Križanić Snježana,5,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,214600,Statističke metode za informatičare,Dobša JasminkaBuhin Pandur Maja,5,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93129,Strateško planiranje informacijskih sustava,Tomičić-Pupek Katarina Vrček Neven,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,93130,Teorija odlučivanja,Kadoić Nikola Žugec Bojan Begičević Ređep Nina Hunjak Tihomir,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,1,2,214602,Upravljanje informatizacijom,Kirinić Valentina Kozina Melita,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93132,Didaktika 2,Hajdin Goran,4,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93120,Elektroničko i mobilno poslovanje,Gerić Sandro Vrček Neven,5,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93119,Fizičko oblikovanje baza podataka,Lovrenčić Alen Schatten Markus,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93122,Javni menadžment,Malbašić Ivan Posarić Nikolina Brčić Ruža,4,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93123,Napredne WEB tehnologije i servisi,Kermek Dragutin Novak Matija,7,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93124,Operacijska istraživanja 2,Žajdela Hrustek Nikolina Perši Nenad,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93125,Psihologija učenja i poučavanja,Brajša-Žganec Andreja Zlatić Luka,6,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,214597,Sigurnost interneta,Bača Miroslav Tomičić Igor,4,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,214598,Skladišta podataka i poslovna inteligencija,Rabuzin Kornelije Križanić Snježana,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,214600,Statističke metode za informatičare,Dobša Jasminka Buhin Pandur Maja,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93129,Strateško planiranje informacijskih sustava,Tomičić-Pupek Katarina Vrček Neven,5,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,93130,Teorija odlučivanja,Kadoić Nikola Žugec Bojan Begičević Ređep Nina Hunjak Tihomir,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,1,2,214602,Upravljanje informatizacijom,Kirinić Valentina Kozina Melita,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93132,Didaktika 2,Hajdin Goran,4,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93120,Elektroničko i mobilno poslovanje,Gerić Sandro Vrček Neven,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93119,Fizičko oblikovanje baza podataka,Lovrenčić Alen Schatten Markus,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93122,Javni menadžment,Malbašić Ivan Posarić Nikolina Brčić Ruža,4,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93133,Metodika nastave informatike 1,Hajdin Goran,6,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93123,Napredne WEB tehnologije i servisi,Kermek Dragutin Novak Matija,7,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93124,Operacijska istraživanja 2,Žajdela Hrustek Nikolina Perši Nenad,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93125,Psihologija učenja i poučavanja,Brajša-Žganec Andreja Zlatić Luka,6,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,214597,Sigurnost interneta,Bača Miroslav Tomičić Igor,4,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,214598,Skladišta podataka i poslovna inteligencija,Rabuzin Kornelije Križanić Snježana,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,214606,Školska praksa 1,Hajdin Goran,5,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,214600,Statističke metode za informatičare,Dobša Jasminka Buhin Pandur Maja,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93129,Strateško planiranje informacijskih sustava,Tomičić-Pupek Katarina Vrček Neven,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,93130,Teorija odlučivanja,Kadoić Nikola Žugec Bojan Begičević Ređep Nina Hunjak Tihomir,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,1,2,214602,Upravljanje informatizacijom,Kirinić Valentina Kozina Melita,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93132,Didaktika 2,Hajdin Goran,4,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93120,Elektroničko i mobilno poslovanje,Gerić Sandro Vrček Neven,5,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93119,Fizičko oblikovanje baza podataka,Lovrenčić Alen Schatten Markus,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93122,Javni menadžment,Malbašić Ivan Posarić Nikolina Brčić Ruža,4,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93123,Napredne WEB tehnologije i servisi,Kermek Dragutin Novak Matija,7,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93124,Operacijska istraživanja 2,Žajdela Hrustek Nikolina Perši Nenad,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93125,Psihologija učenja i poučavanja,Brajša-Žganec Andreja Zlatić Luka,6,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,214597,Sigurnost interneta,Bača Miroslav Tomičić Igor,4,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,214598,Skladišta podataka i poslovna inteligencija,Rabuzin Kornelije Križanić Snježana,5,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,214600,Statističke metode za informatičare,Dobša Jasminka Buhin Pandur Maja,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93129,Strateško planiranje informacijskih sustava,Tomičić-Pupek Katarina Vrček Neven,5,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,93130,Teorija odlučivanja,Kadoić Nikola Žugec Bojan Begičević Ređep Nina Hunjak Tihomir,5,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,1,2,214602,Upravljanje informatizacijom,Kirinić Valentina Kozina Melita,5,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,200743,Društvene inovacije,Detelj Kristina Konecki Irena Kadoić Nikola,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,200741,Internetski marketing,Dobrinić Damir Gregurec Iva,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,76554,Javni menadžment,Malbašić Ivan Jelaković Anamarija Posarić Nikolina Brčić Ruža,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,76561,Logistika,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,76548,Mala i srednja poduzeća u EU,Vuković Ksenija Fojs Ivana Konecki Irena Šmaguc Tamara,5,DA
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,76562,Menadžerska komunikacija i vodstvo,Bubaš Goran Malbašić Ivan Čižmešija Antonela,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,200742,Multimedija i web u poslovanju,Kermek Dragutin Kliček Božidar Kaniški Matija Novak Matija Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,76556,Pregovaranje u međunarodnom okruženju,Vidaček-Hainš Violeta Čižmešija Antonela Kućar Maja,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,76552,Upravljačko računovodstvo,Kovšca Vladimir Keglević Kozjak Suzana Šestanj Perić Tanja,5,DA
+diplomski sveučilišni studij,Ekonomika poduzetništva,1,2,76550,Upravljanje institucionalnim investitorima,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina,5,DA
+poslijediplomski specijalistički sveučilišni,Inženjerstvo i reiženjerstvo organizacija informacijskog doba,1,2,80904,Završni specijalistički rad,,30,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,2,80637,E poslovanje,Vrček Neven,6,NE
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,2,45487,Inteligentne organizacije,Kliček Božidar,6,NE
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,2,45484,Kvantitativne metode u menadžmentu,Hunjak Tihomir,9,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,2,45485,Organizacijski dizajn,,6,NE
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,2,45483,Strategija razvoja poslovnih sustava,,9,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,1,2,80636,Upravljanje poslovanjem poduzeća,Dvorski Stjepan,6,NE
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,2,164064,Upravljanje kontinuitetom poslovanja,Kirinić Valentina Žgela Mario,6,DA
+poslijediplomski specijalistički sveučilišni,Upravljanje sigurnošću i revizija informacijskih sustava,1,2,80904,Završni specijalistički rad,,30,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164933,Društveni mediji u e-učenju,,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164936,E-učenje i korporacijski trening,Fabac Robert,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164934,Ekonomika e-učenja,Kovšca Vladimir,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164935,Etička i pravna pitanja u e-učenju,,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164929,Metode istraživanja u e-učenju,Šimić Diana,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164927,Nastavnička potpora u e-učenju,Vidaček-Hainš Violeta,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164926,Provjere znanja i vještina u e-učenju,Radošević Danijel,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164928,Strategija i upravljanje e-učenjem,Begičević Ređep Nina Divjak Blaženka,5,DA
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164937,"Tehnologije za razvoj, prepoznavanje i akreditaciju kompetencija",Balaban Igor,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164938,Upravljanje projektima u e-učenju,Begičević Ređep Nina Divjak Blaženka,5,NE
+poslijediplomski specijalistički sveučilišni,E-učenje u obrazovanju i poslovanju,1,2,164939,Vrednovanje u e-obrazovanju,Balaban Igor Plantak Vukovac Dijana,5,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,2,133602,Metodičke postavke nastave,Hajdin Goran,10,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,2,133600,Metodika nastave informatike 1,Hajdin Goran,6,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,2,133601,Metodika nastave informatike 2,Hajdin Goran,4,NE
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,2,133598,Psihologija razrednog odjeljenja,Brajša-Žganec AndrejaZlatić Luka,4,DA
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,2,133603,Školska praksa,Hajdin GoranCiglar Vesna,12,DA
+cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,2,133599,Sustavi za elektroničko učenje,Kermek DragutinKliček BožidarPlantak Vukovac Dijana,4,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,2,3,80905,Seminarski rad 1 - analiza slučaja,,5,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,2,3,80906,Seminarski rad 2 - analiza slučaja,,5,DA
+poslijediplomski specijalistički sveučilišni,Menadžment poslovnih sustava,2,3,82498,Završni specijalistički rad,,20,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,50941,Baze podataka,Rabuzin Kornelije Schatten Markus Kurtalj Filip,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,50951,Dizajn programskih proizvoda,Konecki Mario Lovrenčić Alen Kudelić Robert Radošević Danijel,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,50947,Engleski jezik 2,Fara Višnja Kovačić Andreja,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,50945,Marketing,Dobrinić Damir Gregurec Iva Tomašek Lucija,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,50946,Njemački jezik 2,Bunić Branko,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,50942,Poslovne programske aplikacije u primjeni,Pihir Igor Vidačić Stjepan,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,50944,Poslovno planiranje,Detelj Kristina Konecki Irena Vuković Ksenija Korent Dina Šmaguc Tamara,4,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,148732,Programiranje 2,Radošević Danijel Konecki Mario Konecki Mladen Kudelić Robert Lovrenčić Alen,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,3,95813,Tjelesna i zdravstvena kultura 3,Vučić Damir,0,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50956,Elektroničko poslovanje,Vrček Neven Andročec Darko Gerić Sandro,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50954,Financije poduzeća,Detelj Kristina Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan Maršić Kristina,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,148746,Kontroling,Šestanj Perić Tanja,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50953,Logistika,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50955,Međunarodna trgovina,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50952,Menadžment,Malbašić Ivan Jelaković Anamarija Brčić Ruža Crleni Emina Posarić Nikolina,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50960,Poslovni engleski jezik,Fara Višnja,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50959,Poslovni njemački jezik,,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,50958,Računalom posredovana komunikacija,Bubaš Goran Čižmešija Antonela Konecki Mario Plantak Vukovac Dijana Bosilj Neven,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,2,4,95814,Tjelesna i zdravstvena kultura 4,Vučić Damir,0,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,50962,Informacijski sustavi malih i srednjih poduzeća,Andročec Darko Tomičić Furjan Martina Hrustek Larisa,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,50970,Komuniciranje u organizaciji,Bubaš Goran Fabac Robert Čižmešija Antonela,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,50961,Kvantitativni menadžment,Žugec Bojan Hunjak Tihomir Kadoić Nikola,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,50963,Modeliranje poslovnih pravila,Lovrenčić Sandra Čubrilo Mirko,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,50966,Multimedijski sustavi,Kliček Božidar Plantak Vukovac Dijana,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,50967,Poduzetništvo,,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,79405,Stručna praksa,,4,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,5,50964,Upravljanje informatičkim uslugama,Picek Ruben Strahonja Vjeran Mekovec Renata,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,50979,Izgradnja Web aplikacija,Kermek Dragutin Kaniški Matija Drabić Dejan Novak Matija,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,50984,Modeliranje i primjena skladišta podataka,Rabuzin Kornelije,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,50977,Modeliranje procesa i aplikacija,Andročec Darko Tomičić Furjan Martina,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,50982,Poslovna primjena biometrijskih tehnologija,Bača Miroslav Grd Petra,4,NE
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,50972,Poslovni informacijski sustavi državne uprave,Bača Miroslav Grd Petra,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,148766,Računalne mreže u poslovanju,Ivković Nikola Magdalenić Ivan Peras Marko,4,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,50975,Sigurnost informacijskih sustava,Grd Petra Tomičić Igor Gerić Sandro,5,DA
+preddiplomski stručni,Primjena informacijske tehnologije u poslovanju,3,6,78912,Završni rad,,4,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,214603,Baze znanja i semantički Web,Lovrenčić Sandra Oreški Dijana,5,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93136,ERP sustavi,Picek Ruben Vrček Neven Mijač Marko,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93137,Inteligentni sustavi,Kliček Božidar Oreški Dijana,4,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93138,Kvaliteta mjerenja u informatici,Kirinić Valentina Kozina Melita Žgela Mario,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93139,Metode pretraživanja i klasifikacija informacija,Dobša Jasminka Kirinić Valentina,4,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93141,Mjerenje organizacijskih performansi,Fabac Robert Tomičić Furjan Martina,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93142,Modeliranje i simulacije,Žajdela Hrustek Nikolina Perši Nenad,5,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93146,Računalna grafika,Hip Ivan Horvat Damir,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93147,Sustavi za elektronsko učenje,Kermek Dragutin Kliček Božidar Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93149,Uzorci dizajna,Kermek Dragutin,5,NE
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,3,93150,Višeagentni sustavi,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,4,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,4,69575,diplomski rad,,30,DA
+diplomski sveučilišni studij,Baze podataka i baze znanja,2,4,69576,Stručna praksa,,6,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,214603,Baze znanja i semantički Web,Lovrenčić Sandra Oreški Dijana,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93136,ERP sustavi,Picek Ruben Vrček Neven Mijač Marko,5,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93137,Inteligentni sustavi,Kliček Božidar Oreški Dijana,4,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93138,Kvaliteta mjerenja u informatici,Kirinić Valentina Kozina Melita Žgela Mario,5,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93139,Metode pretraživanja i klasifikacija informacija,Dobša Jasminka Kirinić Valentina,4,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93141,Mjerenje organizacijskih performansi,Fabac Robert Tomičić Furjan Martina,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93142,Modeliranje i simulacije,Žajdela Hrustek Nikolina Perši Nenad,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93146,Računalna grafika,Hip Ivan Horvat Damir,5,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93147,Sustavi za elektronsko učenje,Kermek Dragutin Kliček Božidar Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93149,Uzorci dizajna,Kermek Dragutin,5,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,3,93150,Višeagentni sustavi,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,4,NE
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,4,69575,diplomski rad,,30,DA
+diplomski sveučilišni studij,Informacijsko i programsko inženjerstvo,2,4,69576,Stručna praksa,,6,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,214603,Baze znanja i semantički Web,Lovrenčić Sandra Oreški Dijana,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,214609,Edukacijski roboti i mikroračunala,Tomaš Boris,4,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93136,ERP sustavi,Picek Ruben Vrček Neven Mijač Marko,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93137,Inteligentni sustavi,Kliček Božidar Oreški Dijana,4,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93138,Kvaliteta mjerenja u informatici,Kirinić Valentina Kozina Melita Žgela Mario,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93139,Metode pretraživanja i klasifikacija informacija,Dobša Jasminka Kirinić Valentina,4,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93140,Metodika nastave informatike 2,Hajdin Goran,4,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93141,Mjerenje organizacijskih performansi,Fabac Robert Tomičić Furjan Martina,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93142,Modeliranje i simulacije,Žajdela Hrustek Nikolina Perši Nenad,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93144,Praksa u posebnim uvjetima,Vidaček-Hainš Violeta,4,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93145,Psihologija razrednog odjeljenja,Brajša-Žganec Andreja Zlatić Luka,4,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93146,Računalna grafika,Hip Ivan Horvat Damir,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93148,Školska praksa 2,Hajdin Goran,3,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93147,Sustavi za elektronsko učenje,Kermek Dragutin Kliček Božidar Plantak Vukovac Dijana,4,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93149,Uzorci dizajna,Kermek Dragutin,5,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,3,93150,Višeagentni sustavi,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,4,NE
+diplomski sveučilišni studij,Informatika u obrazovanju,2,4,69575,diplomski rad,,30,DA
+diplomski sveučilišni studij,Informatika u obrazovanju,2,4,69576,Stručna praksa,,6,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,214603,Baze znanja i semantički Web,Lovrenčić Sandra Oreški Dijana,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93136,ERP sustavi,Picek Ruben Vrček Neven Mijač Marko,5,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93137,Inteligentni sustavi,Kliček Božidar Oreški Dijana,4,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93138,Kvaliteta mjerenja u informatici,Kirinić Valentina Kozina Melita Žgela Mario,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93139,Metode pretraživanja i klasifikacija informacija,Dobša Jasminka Kirinić Valentina,4,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93141,Mjerenje organizacijskih performansi,Fabac Robert Tomičić Furjan Martina,5,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93142,Modeliranje i simulacije,Žajdela Hrustek Nikolina Perši Nenad,5,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93146,Računalna grafika,Hip Ivan Horvat Damir,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93147,Sustavi za elektronsko učenje,Kermek Dragutin Kliček Božidar Plantak Vukovac Dijana,4,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93149,Uzorci dizajna,Kermek Dragutin,5,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,3,93150,Višeagentni sustavi,Schatten Markus Okreša Đurić Bogdan Peharda Tomislav,4,NE
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,4,69575,diplomski rad,,30,DA
+diplomski sveučilišni studij,Organizacija poslovnih sustava,2,4,69576,Stručna praksa,,6,DA
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,76566,IT menadžment,Kozina Melita Strahonja Vjeran Pažur Aničić Katarina,5,DA
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,76564,Korporacijsko upravljanje,Klačmer Čalopa Marina Đunđek Kokotec Ivana Kokot Karolina Cingula Marijan,5,DA
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,76567,Operacijski menadžment,Žajdela Hrustek Nikolina Perši Nenad,5,DA
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,200744,Poduzetničke strategije,Detelj Kristina Vuković Ksenija Bubanić Marijana Šmaguc Tamara,5,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,200747,Regionalne ekonomske integracije,Dvorski Stjepan Dvorski Lacković Ivana Lacković Vincek Zrinka,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,76575,Statistička analiza podataka,Dobša Jasminka Šimić Diana Gusić Jelena,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,76571,Strategija upravljanja ljudskim potencijalima,Klačmer Čalopa Marina Vidaček-Hainš Violeta Đunđek Kokotec Ivana Kokot Karolina,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,200745,Upravljanje procesnim performansama,Pihir Igor Tomičić Furjan Martina Vidačić Stjepan,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,3,76573,Upravljanje projektnim ciklusom,Divjak Blaženka Pažur Aničić Katarina Begičević Ređep Nina Klačmer Čalopa Marina Vondra Petra,4,NE
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,4,76585,diplomski rad,,30,DA
+diplomski sveučilišni studij,Ekonomika poduzetništva,2,4,76582,Stručna praksa,,6,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61769,Arhitektura računalnih sustava,Ivković Nikola Magdalenić Ivan Milić Luka,6,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61773,Državni i upravni informacijski sustavi,Bača Miroslav Grd Petra,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61774,Financijska matematika,Erjavec Zlatko Horvat Damir Žugec Petra,5,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61775,Informacijski sustavi u uredskom poslovanju,Mekovec Renata Sabati Zvonimir Peras Dijana,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61776,Marketing,Dobrinić Damir Gregurec Iva Tomašek Lucija,4,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61770,Modeliranje poslovnih procesa,Tomičić-Pupek Katarina Vrček Neven Pihir Igor,5,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61777,Poslovni engleski jezik 1,Fara Višnja,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61778,Poslovni njemački jezik 1,Bunić Branko,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61771,Programiranje 2,Radošević Danijel Konecki Mladen,5,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61772,Strukture podataka,Lovrenčić Alen Okreša Đurić Bogdan Banić Bojan,6,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,3,95809,Tjelesna i zdravstvena kultura 3,Vučić Damir,0,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,3,61779,Uvod u formalne metode,Lovrenčić Sandra Čubrilo Mirko Sekovanić Vlatka,5,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61769,Arhitektura računalnih sustava,Ivković Nikola Magdalenić Ivan Milić Luka,6,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61773,Državni i upravni informacijski sustavi,Bača Miroslav Grd Petra,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61774,Financijska matematika,Erjavec Zlatko Horvat Damir Žugec Petra,5,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61775,Informacijski sustavi u uredskom poslovanju,Mekovec Renata Sabati Zvonimir Peras Dijana,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61776,Marketing,Dobrinić Damir Gregurec Iva Tomašek Lucija,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61770,Modeliranje poslovnih procesa,Tomičić-Pupek Katarina Vrček Neven Pihir Igor,5,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61777,Poslovni engleski jezik 1,Fara Višnja,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61778,Poslovni njemački jezik 1,Bunić Branko,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61771,Programiranje 2,Radošević Danijel Konecki Mladen,5,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61772,Strukture podataka,Lovrenčić Alen Okreša Đurić Bogdan Banić Bojan,6,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,3,95809,Tjelesna i zdravstvena kultura 3,Vučić Damir,0,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,3,61779,Uvod u formalne metode,Lovrenčić Sandra Čubrilo Mirko Sekovanić Vlatka,5,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61780,Baze podataka 1,Rabuzin Kornelije Križanić Snježana Okreša Đurić Bogdan,6,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61781,Mreže računala 1,Ivković Nikola Magdalenić Ivan Peras Marko Tomičić Igor Popović Elvis,6,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61793,Odabrana poglavlja matematike,Divjak Blaženka Maretić Marcel Horvat Damir Žugec Bojan,7,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61783,Operacijski sustavi 1,Magdalenić Ivan Golub Marin Ivković Nikola Milić Luka Popović Elvis,5,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61795,Organizacijsko projektiranje,Fabac Robert,4,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61798,Poslovni engleski jezik 2,Kovačić Andreja,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61803,Poslovni njemački jezik 2,Bunić Branko,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61808,Poslovni procesi u organizaciji,Pihir Igor Tomičić Furjan Martina Hrustek Larisa Kutnjak Ana Tomičić-Pupek Katarina,5,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,4,95810,Tjelesna i zdravstvena kultura 4,Vučić Damir,0,DA
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61810,Upravljanje znanjem,Lovrenčić Sandra Maleković Mirko Sekovanić Vlatka,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,2,4,61811,Zemljopisni informacijski sustavi,Strahonja Vjeran Mijač Marko Tomaš Boris Husak Mirko,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61780,Baze podataka 1,Rabuzin Kornelije Križanić Snježana Okreša Đurić Bogdan,6,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61781,Mreže računala 1,Ivković Nikola Magdalenić Ivan Peras Marko Tomičić Igor Popović Elvis,6,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61793,Odabrana poglavlja matematike,Divjak Blaženka Maretić Marcel Horvat Damir Žugec Bojan,7,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61783,Operacijski sustavi 1,Magdalenić Ivan Golub Marin Ivković Nikola Milić Luka Popović Elvis,5,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61795,Organizacijsko projektiranje,Fabac Robert,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61798,Poslovni engleski jezik 2,Kovačić Andreja,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61803,Poslovni njemački jezik 2,Bunić Branko,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61808,Poslovni procesi u organizaciji,Pihir Igor Tomičić Furjan Martina Hrustek Larisa Kutnjak Ana Tomičić-Pupek Katarina,5,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,4,95810,Tjelesna i zdravstvena kultura 4,Vučić Damir,0,DA
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61810,Upravljanje znanjem,Lovrenčić Sandra Maleković Mirko Sekovanić Vlatka,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,2,4,61811,Zemljopisni informacijski sustavi,Strahonja Vjeran Mijač Marko Tomaš Boris Husak Mirko,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72614,Algoritmi,Lovrenčić Alen Konecki Mladen,6,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72610,Baze podataka 2,Rabuzin Kornelije Križanić Snježana Hlapčić Marko Tomaš Boris,6,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72615,Engleski jezik za menadžere,Fara Višnja,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72616,Logistika,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72617,Mreže računala 2,Ivković Nikola Magdalenić IvanTomičić Igor Popović Elvis,6,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72618,Multimedijski sustavi,Kliček Božidar Plantak Vukovac Dijana,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72619,Njemački jezik za menadžere,,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72620,Odabrane teme iz biometrije,Bača Miroslav Grd Petra,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72621,Otkrivanje znanja u podacima,Kliček Božidar Oreški Dijana,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72622,Poduzetništvo,Detelj Kristina Kovšca Vladimir Fojs Ivana Šmaguc Tamara Konecki Irena,5,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72611,Projektiranje informacijskih sustava,Andročec Darko Strahonja Vjeran Oreški Dijana,7,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72623,Računalno i informatičko pravo,,3,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72612,Računovodstvo,Kovšca Vladimir Keglević Kozjak Suzana Šestanj Perić Tanja,5,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72628,Sustavi temeljeni na znanju,Kliček Božidar Oreški Dijana,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72613,Upravljanje informatičkim uslugama,Mekovec Renata Strahonja Vjeran Pažur Aničić Katarina Mrkela Andrijana,4,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,5,72629,Upravljanje odnosima s klijentima,Dobrinić Damir Gerić Sandro Gregurec Iva,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72614,Algoritmi,Lovrenčić Alen Konecki Mladen,6,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72610,Baze podataka 2,Rabuzin Kornelije Križanić Snježana Hlapčić Marko Tomaš Boris,6,DA
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72615,Engleski jezik za menadžere,Fara Višnja,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72616,Logistika,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72617,Mreže računala 2,Ivković Nikola Magdalenić IvanTomičić Igor Popović Elvis,6,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72618,Multimedijski sustavi,Kliček Božidar Plantak Vukovac Dijana,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72619,Njemački jezik za menadžere,,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72620,Odabrane teme iz biometrije,Bača Miroslav Grd Petra,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72621,Otkrivanje znanja u podacima,Kliček Božidar Oreški Dijana,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72622,Poduzetništvo,Detelj Kristina Kovšca Vladimir Fojs Ivana Šmaguc Tamara Konecki Irena,5,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72611,Projektiranje informacijskih sustava,Andročec Darko Strahonja Vjeran Oreški Dijana,7,DA
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72623,Računalno i informatičko pravo,,3,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72612,Računovodstvo,Kovšca Vladimir Keglević Kozjak Suzana Šestanj Perić Tanja,5,DA
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72628,Sustavi temeljeni na znanju,Kliček Božidar Oreški Dijana,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72613,Upravljanje informatičkim uslugama,Mekovec Renata Strahonja Vjeran Pažur Aničić Katarina Mrkela Andrijana,4,DA
+preddiplomski sveučilišni,Informacijski sustavi,3,5,72629,Upravljanje odnosima s klijentima,Dobrinić Damir Gerić Sandro Gregurec Iva,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,6,72635,Napredne formalne metode,Schatten Markus Lovrenčić Sandra,5,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,6,72631,Operacijska istraživanja 1,Žajdela Hrustek Nikolina Perši Nenad Žugec Bojan,5,DA
+preddiplomski sveučilišni,Informacijski sustavi,3,6,72637,Poslovno odlučivanje,Begičević Ređep Nina Šlibar Barbara Kadoić Nikola Hunjak Tihomir,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,6,72638,Poslovno planiranje i projekti,Detelj Kristina Konecki Irena Fojs Ivana,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,6,72632,Programsko inženjerstvo,Stapić Zlatko Strahonja Vjeran Mijač Marko Tomaš Boris,7,DA
+preddiplomski sveučilišni,Informacijski sustavi,3,6,72639,Vođenje projekata,Dušak Vesna Žajdela Hrustek Nikolina,4,NE
+preddiplomski sveučilišni,Informacijski sustavi,3,6,72633,Web dizajn i programiranje,Kermek Dragutin Kaniški Matija Novak Matija Radošević Danijel Drabić Dejan,7,DA
+preddiplomski sveučilišni,Informacijski sustavi,3,6,40738,Završni rad,,8,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,6,72635,Napredne formalne metode,Schatten Markus Lovrenčić Sandra,5,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,6,72631,Operacijska istraživanja 1,Žajdela Hrustek Nikolina Perši Nenad Žugec Bojan,5,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,6,72637,Poslovno odlučivanje,Begičević Ređep Nina Šlibar Barbara Kadoić Nikola Hunjak Tihomir,4,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,6,72638,Poslovno planiranje i projekti,Detelj Kristina Konecki Irena Fojs Ivana,4,DA
+preddiplomski sveučilišni,Poslovni sustavi,3,6,72632,Programsko inženjerstvo,Stapić Zlatko Strahonja Vjeran Mijač Marko Tomaš Boris,7,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,6,72639,Vođenje projekata,Dušak Vesna Žajdela Hrustek Nikolina,4,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,6,72633,Web dizajn i programiranje,Kermek Dragutin Kaniški Matija Novak Matija Radošević Danijel Drabić Dejan,7,NE
+preddiplomski sveučilišni,Poslovni sustavi,3,6,40738,Završni rad,,8,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,3,128652,Makroekonomika za poduzetnike,Čavrak Vladimir Šmaguc Tamara,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,3,128651,Marketing,Dobrinić Damir Gregurec Iva Tomašek Lucija,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,3,128655,Poslovni engleski jezik 2,Kovačić Andreja,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,3,128654,Poslovni njemački jezik 2,Antolić Petak Andreja Bunić Branko,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,3,128648,Računovodstvo,Sever Mališ Sanja Žager Lajoš Keglević Kozjak Suzana Brozović Mateja Šestanj Perić Tanja,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,3,128649,Statistika,Dobša Jasminka Šimić Diana Buhin Pandur Maja Gusić Jelena,7,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,3,128694,Tjelesna i zdravstvena kultura 3,Vučić Damir,1,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,4,128659,Financijske institucije i tržišta,Klačmer Čalopa Marina Kovšca Vladimir Đunđek Kokotec Ivana Kokot Karolina,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,4,128666,Menadžment malog poduzeća,Malbašić Ivan,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,4,128657,Poduzetničke financije,Orsag SilvijeZoričić DavorĐunđek Kokotec IvanaKorent DinaSabol AndrijaDolinar Denis,7,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,4,128660,Porezni sustavi,Šimurina Nika Šimović Hrvoje Barbić Dajana,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,4,128662,Poslovni informacijski sustavi,Picek Ruben Mijač Marko Sokač Danijel,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,4,128695,Tjelesna i zdravstvena kultura 4,Vučić Damir,1,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,2,4,128664,Transport i špedicija,Dvorski Stjepan Dvorski Lacković Ivana Keglević Kozjak Suzana Kovšca Vladimir Lacković Vincek Zrinka Novak Ema,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128670,Analiza financijskih izvještaja,Ježovita Ana Sever Mališ Sanja Žager Lajoš Keglević Kozjak Suzana Šestanj Perić Tanja Brozović Mateja,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128678,Informacijski sustavi proizvodnje,Picek Ruben Strahonja Vjeran,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128677,Informacijski sustavi u uredskom poslovanju,Mekovec Renata Sabati Zvonimir Peras Dijana,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128679,Međunarodno poslovanje,Dvorski Stjepan Dvorski Lacković Ivana Lacković Vincek Zrinka Novak Ema,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128673,Osobne financije,Klačmer Čalopa Marina Đunđek Kokotec Ivana Vuković Ksenija,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128675,Poslovni engleski jezik 3,Fara Višnja,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128674,Poslovni njemački jezik 3,Bunić Branko,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128672,Poslovno planiranje i projekti,Detelj Kristina Konecki Irena Korent Dina,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128676,Upravljanje kvalitetom,Kirinić Valentina Kozina Melita,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,5,128671,Upravljanje odnosima s kupcima,Dobrinić Damir Gerić Sandro Gregurec Iva,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128687,Elektroničko poslovanje,Vrček Neven Spremić Mario Gerić Sandro,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128690,Otkrivanje znanja u podacima,Kliček Božidar Oreški Dijana,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128681,Poduzetnički pothvat,Konecki Irena Klačmer Čalopa Marina Đunđek Kokotec Ivana Novak Ema Šmaguc Tamara Detelj Kristina Stapić Zlatko Cingula Marijan,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128689,Poslovni procesi,Pihir Igor Tomičić Furjan Martina Hrustek Larisa,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128683,Poslovno odlučivanje,Kadoić Nikola Hunjak Tihomir,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128688,Revizija,Sever Mališ Sanja Žager Lajoš Brozović Mateja,4,NE
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128684,Socijalno poduzetništvo,Konecki Irena Novak Ema Detelj Kristina Lovrenčić Sandra Vidaček-Hainš Violeta,6,DA
+preddiplomski sveučilišni,Ekonomika poduzetništva,3,6,128696,Završni rad,,4,DA
