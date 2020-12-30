@@ -73,9 +73,9 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
          reader = csv.DictReader(csvfile)
          for zapis in reader:
              if broj <= 50:
-                 print(f"{zapis['Studij'].lower()} {nazivStudija.lower()} {zapis['Godina_studija']} {str(godinaStudija)}")
+                 print(f"{zapis['Studij'].lower()} {nazivStudija.lower()} {zapis['Godina_studija']} {str(int(godinaStudija))}")
                  broj += 1
-             if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == str(godinaStudija):
+             if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == str(int(godinaStudija)):
                  if zapis['Obavezan'] == "DA":
                      odgovor += zapis['Naziv']+", "
 
