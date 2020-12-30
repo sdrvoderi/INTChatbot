@@ -34,8 +34,8 @@ def responseCreator():
 def intentRecognizer(queryResults,intent):
     if intent == "Smjerovi_Studija" :
         return Smjerovi_Studija(queryResults)
-    elif intent == "Obavezni_kolegiji_na_studiju":
-        return   
+    elif intent == "Obavezni_kolegiji_na_studiju":        
+        return Obavezni_kolegiji_na_studiju(queryResults)  
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -80,6 +80,7 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
      else:
          odgovor = f"{nazivStudija} mandatory subjects are {odgovor[:-2]}" 
 
-     return odgovor                      
+     return odgovor       
+                    
                      
 
