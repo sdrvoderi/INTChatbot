@@ -45,7 +45,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "ISVU_sifra":        
         return ISVU_sifra(queryResults)
     elif intent == "Broj_ECTS-a":        
-        return Broj_ECTS(queryResults)                   
+        return Broj_ECTS(queryResults)
+    elif intent == "Nastavnici_na_kolegiju":        
+        return Nastavnici_na_kolegiju(queryResults)                        
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -83,6 +85,11 @@ def Broj_ECTS(queryResults):
      nazivKolegija = queryResults['parameters']['naziv_kolegija']
      obavezni = pronadiKolegijECTS(nazivKolegija)
      return obavezni
+
+def Nastavnici_na_kolegiju(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiNastavnike(nazivKolegija)
+     return obavezni     
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -164,4 +171,12 @@ def pronadiKolegijECTS(nazivKolegija):
          for zapis in reader:
              if zapis['Naziv'].lower() == nazivKolegija.lower():
                      return f"{zapis['Naziv']} is worth {zapis['ECTS']} ECTS points!"
+     return  "I'm sorry but I don't have that subject in my database. Check your spelling please"
+
+def pronadiNastavnike(nazivKolegija):
+     with open('data/elementaryData.csv',newline='') as csvfile:
+         reader = csv.DictReader(csvfile)
+         for zapis in reader:
+             if zapis['Naziv'].lower() == nazivKolegija.lower():
+                     return f"{zapis['Naziv']} is being lectured by {zapis['Nastavnici']}"
      return  "I'm sorry but I don't have that subject in my database. Check your spelling please"       
