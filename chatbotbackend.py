@@ -50,8 +50,12 @@ def pronadiSmjerove(vrstaStudija):
                  if zapis['Studij'] not in pronadeniSmjerovi:
                      pronadeniSmjerovi.append(zapis['Studij'])
                      odgovor += zapis['Studij']+", "
+
      if len(odgovor) == 0:
-         odgovor = "I'm sorry but I don't have that study in my database. Check your spelling please"                
-     return odgovor[:-1]                
+         odgovor = "I'm sorry but I don't have that study in my database. Check your spelling please"
+     else:
+         odgovor = f"{vrstaStudija} courses are {odgovor[:-2]}" 
+
+     return odgovor                
                      
 
