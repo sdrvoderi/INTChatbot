@@ -68,9 +68,13 @@ def pronadiSmjerove(vrstaStudija):
 
 def pronadiObavezneKolegije(nazivStudija,godinaStudija):
      odgovor = ""
+     broj = 1
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
+             if broj <= 50:
+                 print(f"{zapis['Studij'].lower()} {nazivStudija.lower()} {zapis['Godina_studija']} {str(godinaStudija)}")
+                 broj += 1
              if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == str(godinaStudija):
                  if zapis['Obavezan'] == "DA":
                      odgovor += zapis['Naziv']+", "
