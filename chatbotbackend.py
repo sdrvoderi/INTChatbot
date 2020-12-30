@@ -46,10 +46,12 @@ def pronadiSmjerove(vrstaStudija):
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
-             if zapis['Vrsta_studija'] == vrstaStudija:
+             if zapis['Vrsta_studija'] == vrstaStudija.lower():
                  if zapis['Studij'] not in pronadeniSmjerovi:
                      pronadeniSmjerovi.append(zapis['Studij'])
                      odgovor += zapis['Studij']+", "
-     return odgovor                
+     if len(odgovor) == 0:
+         odgovor = "I'm sorry but I don't have that study in my database. Check your spelling please"                
+     return odgovor[:-1]                
                      
 
