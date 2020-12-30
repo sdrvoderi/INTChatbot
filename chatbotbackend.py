@@ -71,7 +71,7 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
-             if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == godinaStudija:
+             if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == str(godinaStudija):
                  if zapis['Obavezan'] == "DA":
                      odgovor += zapis['Naziv']+", "
 
@@ -81,6 +81,5 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
          odgovor = f"{nazivStudija} mandatory subjects are {odgovor[:-2]}" 
 
      return odgovor       
-
                      
 
