@@ -35,7 +35,9 @@ def intentRecognizer(queryResults,intent):
     if intent == "Smjerovi_Studija" :
         return Smjerovi_Studija(queryResults)
     elif intent == "Obavezni_kolegiji_na_studiju":        
-        return Obavezni_kolegiji_na_studiju(queryResults)  
+        return Obavezni_kolegiji_na_studiju(queryResults)
+    elif intent == "Izborni_kolegiji_na_studiju":        
+        return Izborni_kolegiji_na_studiju(queryResults)  
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -47,6 +49,12 @@ def Obavezni_kolegiji_na_studiju(queryResults):
      godinaStudija = queryResults['parameters']['godina_studija']
      obavezni = pronadiObavezneKolegije(nazivStudija,godinaStudija)
      return obavezni
+
+def Izborni_kolegiji_na_studiju(queryResults):
+     nazivStudija = queryResults['parameters']['naziv_studija']
+     godinaStudija = queryResults['parameters']['godina_studija']
+     obavezni = pronadiIzborneKolegije(nazivStudija,godinaStudija)
+     return obavezni     
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -72,9 +80,6 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
-             if broj <= 50:
-                 print(f"{zapis['Studij'].lower()} {nazivStudija.lower()} {zapis['Godina_studija']} {str(int(godinaStudija))}")
-                 broj += 1
              if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == str(int(godinaStudija)):
                  if zapis['Obavezan'] == "DA":
                      odgovor += zapis['Naziv']+", "
@@ -84,6 +89,22 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
      else:
          odgovor = f"{nazivStudija} mandatory subjects are {odgovor[:-2]}" 
 
-     return odgovor       
-                     
+     return odgovor   
+
+def pronadiIzborneKolegije(nazivStudija,godinaStudija):
+     odgovor = ""
+     broj = 1
+     with open('data/elementaryData.csv',newline='') as csvfile:
+         reader = csv.DictReader(csvfile)
+         for zapis in reader:
+             if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == str(int(godinaStudija)):
+                 if zapis['Obavezan'] == "NE":
+                     odgovor += zapis['Naziv']+", "
+
+     if len(odgovor) == 0:
+         odgovor = "I'm sorry but I don't have that course and year in my database. Check your spelling please"
+     else:
+         odgovor = f"{nazivStudija} mandatory subjects are {odgovor[:-2]}" 
+
+     return odgovor                       
 
