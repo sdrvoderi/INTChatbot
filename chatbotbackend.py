@@ -8,15 +8,31 @@ def home():
 @app.route("/webhook",methods=['POST'])
 def responseCreator():
     req = request.get_json(silent=True, force=True)
+    #Print se koristi samo za pregled u Heroku konzoli
     print(req)
+
+    #Varijable queryResults i intent sadrže informacije koje su potrebne za određivanje odgovora
+    queryResults = req.get('queryResult')
+    intent = req.get('intent').get('displayName')
+
+    response = intentRecognizer(queryResults,intent)
+
     return {
             "fulfillmentMessages": [
                 {
                 "text": {
                     "text": [
-                    "Text response from weabhook"
+                    f"{response}"
                     ]
                 }
                 }
             ]
             }
+
+def intentRecognizer(queryResults,intent):
+    if intent == "Smjerovi_Studija" :
+        return Smjerovi_Studija(queryResults)
+                           
+def Smjerovi_Studija(queryResults):
+     vrstaStudija = queryResults.get('vrsta_studija')
+     return f"{vrstaStudija} ima smjerove ...(backend)"                          
