@@ -14,7 +14,7 @@ def responseCreator():
 
     #Varijable queryResults i intent sadrže informacije koje su potrebne za određivanje odgovora
     queryResults = req['queryResult']
-    intent = req['intent']['displayName']
+    intent = queryResults['intent']['displayName']
 
     response = intentRecognizer(queryResults,intent)
 
