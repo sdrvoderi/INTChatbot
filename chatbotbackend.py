@@ -35,5 +35,5 @@ def intentRecognizer(queryResults,intent):
         return Smjerovi_Studija(queryResults)
                            
 def Smjerovi_Studija(queryResults):
-     vrstaStudija = queryResults['vrsta_studija']
+     vrstaStudija = queryResults['parameters']['vrsta_studija']
      return f"{vrstaStudija} ima smjerove ...(backend)"                          
