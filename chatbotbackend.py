@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 app = Flask(__name__)
 
 @app.route("/")
@@ -7,6 +7,8 @@ def home():
 
 @app.route("/webhook",methods=['POST'])
 def responseCreator():
+    req = request.get_json(silent=True, force=True)
+    print(req)
     return {
             "fulfillmentMessages": [
                 {
