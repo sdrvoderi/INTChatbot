@@ -12,7 +12,7 @@ def responseCreator():
                 {
                 "text": {
                     "text": [
-                    "Text response from webhook"
+                    "Text response from weabhook"
                     ]
                 }
                 }
