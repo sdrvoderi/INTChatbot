@@ -44,7 +44,7 @@ def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
      odgovor = ""
      with open('data/elementaryData.csv',newline='') as csvfile:
-         reader = csv.DictReader(csvfile, delimeter=',')
+         reader = csv.DictReader(csvfile)
          for zapis in reader:
              if zapis['Vrsta_studija'] == vrstaStudija:
                  if zapis['Studij'] not in pronadeniSmjerovi:
