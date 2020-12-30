@@ -162,6 +162,6 @@ def pronadiKolegijECTS(nazivKolegija):
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
-             if zapis['Naziv'] == nazivKolegija:
+             if zapis['Naziv'].lower() == nazivKolegija.lower():
                      return f"{zapis['Naziv']} is worth {zapis['ECTS']} ECTS points!"
      return  "I'm sorry but I don't have that subject in my database. Check your spelling please"       
