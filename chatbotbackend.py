@@ -37,7 +37,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Obavezni_kolegiji_na_studiju":        
         return Obavezni_kolegiji_na_studiju(queryResults)
     elif intent == "Izborni_kolegiji_na_studiju":        
-        return Izborni_kolegiji_na_studiju(queryResults)  
+        return Izborni_kolegiji_na_studiju(queryResults)
+    elif intent == "Godina_kolegija":        
+        return Godina_kolegija(queryResults)      
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -54,7 +56,12 @@ def Izborni_kolegiji_na_studiju(queryResults):
      nazivStudija = queryResults['parameters']['naziv_studija']
      godinaStudija = queryResults['parameters']['godina_studija']
      obavezni = pronadiIzborneKolegije(nazivStudija,godinaStudija)
-     return obavezni     
+     return obavezni 
+
+def Godina_kolegija(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiGodinuKolegija(nazivKolegija)
+     return obavezni         
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -76,7 +83,6 @@ def pronadiSmjerove(vrstaStudija):
 
 def pronadiObavezneKolegije(nazivStudija,godinaStudija):
      odgovor = ""
-     broj = 1
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
@@ -93,7 +99,6 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
 
 def pronadiIzborneKolegije(nazivStudija,godinaStudija):
      odgovor = ""
-     broj = 1
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
@@ -104,7 +109,15 @@ def pronadiIzborneKolegije(nazivStudija,godinaStudija):
      if len(odgovor) == 0:
          odgovor = "I'm sorry but I don't have that course and year in my database. Check your spelling please"
      else:
-         odgovor = f"{nazivStudija} mandatory subjects are {odgovor[:-2]}" 
+         odgovor = f"{nazivStudija} optional subjects are {odgovor[:-2]}" 
 
-     return odgovor                       
+     return odgovor
+
+def pronadiGodinuKolegija(nazivKolegija):
+     with open('data/elementaryData.csv',newline='') as csvfile:
+         reader = csv.DictReader(csvfile)
+         for zapis in reader:
+             if zapis['Naziv'].lower() == nazivKolegija.lower():
+                     return f"{zapis['Naziv']} is performed in {zapis['Godina_studija']} year {zapis['Semestar']} semester"
+     return  "I'm sorry but I don't have that course in my database. Check your spelling please"                           
 
