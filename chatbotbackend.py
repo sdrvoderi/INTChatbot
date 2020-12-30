@@ -54,7 +54,7 @@ def pronadiSmjerove(vrstaStudija):
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
-             if zapis['Vrsta_studija'] == vrstaStudija.lower():
+             if zapis['Vrsta_studija'].lower() == vrstaStudija.lower():
                  if zapis['Studij'] not in pronadeniSmjerovi:
                      pronadeniSmjerovi.append(zapis['Studij'])
                      odgovor += zapis['Studij']+", "
@@ -71,7 +71,7 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
-             if zapis['Studij'] == nazivStudija.lower() and zapis['Godina_studija'] == godinaStudija:
+             if zapis['Studij'].lower() == nazivStudija.lower() and zapis['Godina_studija'] == godinaStudija:
                  if zapis['Obavezan'] == "DA":
                      odgovor += zapis['Naziv']+", "
 
@@ -81,6 +81,6 @@ def pronadiObavezneKolegije(nazivStudija,godinaStudija):
          odgovor = f"{nazivStudija} mandatory subjects are {odgovor[:-2]}" 
 
      return odgovor       
-                    
+
                      
 
