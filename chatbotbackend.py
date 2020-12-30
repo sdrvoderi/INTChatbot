@@ -9,7 +9,6 @@ def home():
 @app.route("/webhook",methods=['POST'])
 def responseCreator():
     req = request.get_json(silent=True, force=True)
-    req = json.loads(req)
     #Print se koristi samo za pregled u Heroku konzoli
     print(req)
 
