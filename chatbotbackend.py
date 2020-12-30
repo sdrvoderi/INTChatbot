@@ -34,11 +34,19 @@ def responseCreator():
 def intentRecognizer(queryResults,intent):
     if intent == "Smjerovi_Studija" :
         return Smjerovi_Studija(queryResults)
+    elif intent == "Obavezni_kolegiji_na_studiju":
+        return   
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
      smjerovi = pronadiSmjerove(vrstaStudija)
-     return f"{vrstaStudija} courses are {smjerovi}"  
+     return smjerovi
+
+def Obavezni_kolegiji_na_studiju(queryResults):
+     nazivStudija = queryResults['parameters']['naziv_studija']
+     godinaStudija = queryResults['parameters']['godina_studija']
+     obavezni = pronadiObavezneKolegije(nazivStudija,godinaStudija)
+     return obavezni
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -56,6 +64,22 @@ def pronadiSmjerove(vrstaStudija):
      else:
          odgovor = f"{vrstaStudija} courses are {odgovor[:-2]}" 
 
-     return odgovor                
+     return odgovor  
+
+def pronadiObavezneKolegije(nazivStudija,godinaStudija):
+     odgovor = ""
+     with open('data/elementaryData.csv',newline='') as csvfile:
+         reader = csv.DictReader(csvfile)
+         for zapis in reader:
+             if zapis['Studij'] == nazivStudija.lower() and zapis['Godina_studija'] == godinaStudija:
+                 if zapis['Obavezan'] == "DA":
+                     odgovor += zapis['Naziv']+", "
+
+     if len(odgovor) == 0:
+         odgovor = "I'm sorry but I don't have that course and year in my database. Check your spelling please"
+     else:
+         odgovor = f"{nazivStudija} mandatory subjects are {odgovor[:-2]}" 
+
+     return odgovor                      
                      
 

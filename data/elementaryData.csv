@@ -1,13 +1,13 @@
 Vrsta_studija,Studij,Godina_studija,Semestar,ISVU_sifra,Naziv,Nastavnici,ECTS,Obavezan
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47218,Engleski jezik 1,Kovačić Andreja,3,NE
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47214,Informatika 1,Balaban Igor Sobodić Aleksandra Zlatović Miran Filipović Danijel,6,DA
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47219,Matematika 1,Divjak Blaženka Erjavec Zlatko Jakuš Marija Klemenčić Damjan Laljek Mihaela Maretić Marcel,6,DA
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47222,Organizacija,Malbašić Ivan Jelaković Anamarija Posarić Nikolina Brčić Ruža,6,DA
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47229,Poslovno komuniciranje,Bubaš Goran Vidaček-Hainš Violeta Čižmešija Antonela Kutnjak Ana Plantak Vukovac Dijana,3,NE
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47222,Njemački jezik 1,Bunić Branko,3,NE
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,95807,Tjelesna i zdravstvena kultura 1,Vučić Damir,0,DA
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47224,Osnove ekonomije,Detelj Kristina Konecki Irena Vuković Ksenija Bubanić Marijana Fojs Ivana Korent Dina Maurović Benko Željka Viljevac Marina,4,DA
-preddiplomski sveučilišni,Informacijski i poslovni studiji,1,1,47227,Statistika,Dobša Jasminka Šimić Diana Buhin Pandur Maja,5,DA
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47218,Engleski jezik 1,Kovačić Andreja,3,NE
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47214,Informatika 1,Balaban Igor Sobodić Aleksandra Zlatović Miran Filipović Danijel,6,DA
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47219,Matematika 1,Divjak Blaženka Erjavec Zlatko Jakuš Marija Klemenčić Damjan Laljek Mihaela Maretić Marcel,6,DA
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47222,Organizacija,Malbašić Ivan Jelaković Anamarija Posarić Nikolina Brčić Ruža,6,DA
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47229,Poslovno komuniciranje,Bubaš Goran Vidaček-Hainš Violeta Čižmešija Antonela Kutnjak Ana Plantak Vukovac Dijana,3,NE
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47222,Njemački jezik 1,Bunić Branko,3,NE
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,95807,Tjelesna i zdravstvena kultura 1,Vučić Damir,0,DA
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47224,Osnove ekonomije,Detelj Kristina Konecki Irena Vuković Ksenija Bubanić Marijana Fojs Ivana Korent Dina Maurović Benko Željka Viljevac Marina,4,DA
+preddiplomski sveučilišni,Informacijski i poslovni sustavi,1,1,47227,Statistika,Dobša Jasminka Šimić Diana Buhin Pandur Maja,5,DA
 preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128638,Matematika za ekonomiste 1,Erjavec Zlatko Horvat Damir Jakuš Marija Žugec Bojan,6,DA
 preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128637,Osnove ekonomije,Vuković Ksenija Bubanić Marijana Detelj Kristina Konecki Irena Korent Dina Šmaguc Tamara,6,DA
 preddiplomski sveučilišni,Ekonomika poduzetništva,1,1,128643,Osnove poduzetništva,Detelj Kristina Kovšca Vladimir Fojs Ivana Novak Ema Konecki Irena Viljevac Marina,6,DA
@@ -167,23 +167,23 @@ cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,
 cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133597,Psihologija učenja i poučavanja,Brajša-Žganec Andreja Zlatić Luka,6,DA
 cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133607,Sigurnost interneta,Bača Miroslav Grd Petra,4,NE
 cjeloživotno učenje,Pedagoško-psihološko-didaktičko-metodičko obrazovanje,1,1,133606,Upravljanje projektnim ciklusom,Divjak Blaženka Begičević Ređep Nina Spahić Amir,4,NE
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47231,Engleski jezik 2,Fara Višnja,3,NE
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47247,Informatika 2,Balaban Igor Filipović Danijel Hutinski Željko Zlatović Miran,5,NE
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47251,Komuniciranje u Organizaciji,Čižmešija Antonela Kutnjak Ana Plantak Vukovac Dijana,3,NE
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47233,Matematika 2,Divjak Blaženka Erjavec Zlatko Jakuš Marija Klemenčić Damjan Laljek Mihaela Žugec Bojan,6,DA
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47235,Njemački jezik 2,Bunić Branko,3,NE
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47237,Obrada teksta i slike,Kirinić Valentina,4,DA
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47240,Poslovna ekonomija,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Keglević Kozjak Suzana Lacković Vincek Zrinka Novak Ema,4,DA
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47244,Programiranje 1,Konecki Mario,5,DA
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,47255,Teorija sustava,Pihir Igor Vidačić Stjepan,5,NE
-preddiplomski sveučilišni studiji,Informacijski i poslovni studiji,1,2,95808,Tjelesna i zdravstvena kultura 2,Vučić Damir,0,DA
-preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128645,Matematika za ekonomiste 2,Erjavec Zlatko Horvat Damir Jakuš Marija,6,DA
-preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128642,Mikroekonomija,Vuković Ksenija Bubanić Marijana Fojs Ivana Korent Dina,6,DA
-preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128644,Organizacija i menadžment,Malbašić Ivan Jelaković Anamarija Posarić Nikolina Viljevac Marina,7,DA
-preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128639,Poslovna informatika,Balaban Igor Hutinski Željko Sobodić Aleksandra Zlatović Miran Oreški Dijana,6,DA
-preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128647,Poslovni engleski jezik 1,Kovačić Andreja,4,NE
-preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128646,Poslovni njemački jezik 1,Antolić Petak Andreja Bunić Branko,4,NE
-preddiplomski sveučilišni studiji,Ekonomika poduzetništva,1,2,128693,Tjelesna i zdravstvena kultura 2,Vučić Damir,1,DA
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47231,Engleski jezik 2,Fara Višnja,3,NE
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47247,Informatika 2,Balaban Igor Filipović Danijel Hutinski Željko Zlatović Miran,5,NE
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47251,Komuniciranje u Organizaciji,Čižmešija Antonela Kutnjak Ana Plantak Vukovac Dijana,3,NE
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47233,Matematika 2,Divjak Blaženka Erjavec Zlatko Jakuš Marija Klemenčić Damjan Laljek Mihaela Žugec Bojan,6,DA
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47235,Njemački jezik 2,Bunić Branko,3,NE
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47237,Obrada teksta i slike,Kirinić Valentina,4,DA
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47240,Poslovna ekonomija,Dvorski Stjepan Kovšca Vladimir Dvorski Lacković Ivana Keglević Kozjak Suzana Lacković Vincek Zrinka Novak Ema,4,DA
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47244,Programiranje 1,Konecki Mario,5,DA
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,47255,Teorija sustava,Pihir Igor Vidačić Stjepan,5,NE
+preddiplomski sveučilišni sustavi,Informacijski i poslovni sustavi,1,2,95808,Tjelesna i zdravstvena kultura 2,Vučić Damir,0,DA
+preddiplomski sveučilišni sustavi,Ekonomika poduzetništva,1,2,128645,Matematika za ekonomiste 2,Erjavec Zlatko Horvat Damir Jakuš Marija,6,DA
+preddiplomski sveučilišni sustavi,Ekonomika poduzetništva,1,2,128642,Mikroekonomija,Vuković Ksenija Bubanić Marijana Fojs Ivana Korent Dina,6,DA
+preddiplomski sveučilišni sustavi,Ekonomika poduzetništva,1,2,128644,Organizacija i menadžment,Malbašić Ivan Jelaković Anamarija Posarić Nikolina Viljevac Marina,7,DA
+preddiplomski sveučilišni sustavi,Ekonomika poduzetništva,1,2,128639,Poslovna informatika,Balaban Igor Hutinski Željko Sobodić Aleksandra Zlatović Miran Oreški Dijana,6,DA
+preddiplomski sveučilišni sustavi,Ekonomika poduzetništva,1,2,128647,Poslovni engleski jezik 1,Kovačić Andreja,4,NE
+preddiplomski sveučilišni sustavi,Ekonomika poduzetništva,1,2,128646,Poslovni njemački jezik 1,Antolić Petak Andreja Bunić Branko,4,NE
+preddiplomski sveučilišni sustavi,Ekonomika poduzetništva,1,2,128693,Tjelesna i zdravstvena kultura 2,Vučić Damir,1,DA
 preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46651,Financijska matematika,Erjavec Zlatko Horvat Damir Žignić Lucija Žugec Petra,6,DA
 preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46654,Poslovno komuniciranje,Vidaček-Hainš Violeta Čižmešija Antonela Kućar Maja,4,NE
 preddiplomski stručni studij,Primjena informacijske tehnologije u poslovanju,1,2,46650,Programiranje,Lovrenčić Alen Konecki Mario Konecki Mladen Kudelić Robert Radošević Danijel Banić Bojan,5,DA
