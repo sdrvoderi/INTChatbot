@@ -147,6 +147,6 @@ def pronadiKolegijIsvu(isvuSifra):
      with open('data/elementaryData.csv',newline='') as csvfile:
          reader = csv.DictReader(csvfile)
          for zapis in reader:
-             if zapis['ISVU_sifra'] == isvuSifra:
+             if zapis['ISVU_sifra'] == str(int(isvuSifra)):
                      return f"{zapis['Naziv']} is the course behind the code {isvuSifra}"
      return  "I'm sorry but I don't have that isvu code in my database. Check your spelling please" 
