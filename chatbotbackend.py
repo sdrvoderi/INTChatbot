@@ -39,7 +39,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Izborni_kolegiji_na_studiju":        
         return Izborni_kolegiji_na_studiju(queryResults)
     elif intent == "Godina_kolegija":        
-        return Godina_kolegija(queryResults)      
+        return Godina_kolegija(queryResults)
+    elif intent == "Semestar_kolegija":        
+        return Semestar_kolegija(queryResults)           
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -61,7 +63,12 @@ def Izborni_kolegiji_na_studiju(queryResults):
 def Godina_kolegija(queryResults):
      nazivKolegija = queryResults['parameters']['naziv_kolegija']
      obavezni = pronadiGodinuKolegija(nazivKolegija)
-     return obavezni         
+     return obavezni  
+
+def Semestar_kolegija(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiSemestarKolegija(nazivKolegija)
+     return obavezni
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -121,3 +128,10 @@ def pronadiGodinuKolegija(nazivKolegija):
                      return f"{zapis['Naziv']} is performed in {zapis['Godina_studija']} year {zapis['Semestar']} semester"
      return  "I'm sorry but I don't have that course in my database. Check your spelling please"                           
 
+def pronadiSemestarKolegija(nazivKolegija):
+     with open('data/elementaryData.csv',newline='') as csvfile:
+         reader = csv.DictReader(csvfile)
+         for zapis in reader:
+             if zapis['Naziv'].lower() == nazivKolegija.lower():
+                     return f"{zapis['Naziv']} is performed in {zapis['Semestar']} semester"
+     return  "I'm sorry but I don't have that course in my database. Check your spelling please" 
