@@ -43,7 +43,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Semestar_kolegija":        
         return Semestar_kolegija(queryResults)
     elif intent == "ISVU_sifra":        
-        return ISVU_sifra(queryResults)               
+        return ISVU_sifra(queryResults)
+    elif intent == "Broj_ECTS-a":        
+        return Broj_ECTS(queryResults)                   
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -75,7 +77,12 @@ def Semestar_kolegija(queryResults):
 def ISVU_sifra(queryResults):
      isvuSifra = queryResults['parameters']['isvu_number']
      obavezni = pronadiKolegijIsvu(isvuSifra)
-     return obavezni     
+     return obavezni
+
+def Broj_ECTS(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiKolegijECTS(nazivKolegija)
+     return obavezni
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -148,5 +155,13 @@ def pronadiKolegijIsvu(isvuSifra):
          reader = csv.DictReader(csvfile)
          for zapis in reader:
              if zapis['ISVU_sifra'] == str(int(isvuSifra)):
-                     return f"{zapis['Naziv']} is the course behind the code {isvuSifra}"
-     return  "I'm sorry but I don't have that isvu code in my database. Check your spelling please" 
+                     return f"{zapis['Naziv']} is the course behind the code {int(isvuSifra)}"
+     return  "I'm sorry but I don't have that isvu code in my database. Check your spelling please"
+
+def pronadiKolegijECTS(nazivKolegija):
+     with open('data/elementaryData.csv',newline='') as csvfile:
+         reader = csv.DictReader(csvfile)
+         for zapis in reader:
+             if zapis['Naziv'] == nazivKolegija:
+                     return f"{zapis['Naziv']} is worth {zapis['ECTS']} ECTS points!"
+     return  "I'm sorry but I don't have that subject in my database. Check your spelling please"       
