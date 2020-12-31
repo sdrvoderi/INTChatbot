@@ -53,7 +53,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Sadrzaj_vjezbi":        
         return Sadrzaj_vjezbi(queryResults)
     elif intent == "Ishodi_ucenja_predmeta":        
-        return Ishodi_ucenja_predmeta(queryResults)                                     
+        return Ishodi_ucenja_predmeta(queryResults)
+    elif intent == "Preduvjeti_za_predmet":        
+        return Preduvjeti_za_predmet(queryResults)                                         
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -110,7 +112,12 @@ def Sadrzaj_vjezbi(queryResults):
 def Ishodi_ucenja_predmeta(queryResults):
      nazivKolegija = queryResults['parameters']['naziv_kolegija']
      obavezni = pronadiIshodeUcenja(nazivKolegija)
-     return obavezni                 
+     return obavezni
+
+def Preduvjeti_za_predmet(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiPreduvjete(nazivKolegija)
+     return obavezni
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -215,7 +222,7 @@ def pronadiSadrzajPredavanja(nazivKolegija):
      if len(odgovor) == 0:
          odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have lectures. Check your spelling please"
      else:
-         odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
+         odgovor = f"{nazivKolegija}  lecture contents are {odgovor[:-2]}" 
 
      return odgovor
 
@@ -232,7 +239,7 @@ def pronadiSadrzajVjezbi(nazivKolegija):
      if len(odgovor) == 0:
          odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have excercises. Check your spelling please"
      else:
-         odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
+         odgovor = f"{nazivKolegija} excecises contents are {odgovor[:-2]}" 
 
      return odgovor
 
@@ -249,6 +256,23 @@ def pronadiIshodeUcenja(nazivKolegija):
      if len(odgovor) == 0:
          odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have any learning outcomes. Check your spelling please"
      else:
-         odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
+         odgovor = f"{nazivKolegija} learning outcomes are {odgovor[:-2]}" 
 
      return odgovor     
+
+def pronadiPreduvjete(nazivKolegija):
+     odgovor = ""
+     with open('data/moreData.json',newline='') as json_file:
+         reader = json.load(json_file)
+         for key, value in reader.items():
+             if value['nazivKolegija'].lower() == nazivKolegija.lower():
+                 for key2, value2 in value['preduvjeti'].items():
+                     odgovor += value2['predmet']+", "
+                 break        
+
+     if len(odgovor) == 0:
+         odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have any prerequisites. Check your spelling please"
+     else:
+         odgovor = f"{nazivKolegija} prerequisites are {odgovor[:-2]}" 
+
+     return odgovor 
