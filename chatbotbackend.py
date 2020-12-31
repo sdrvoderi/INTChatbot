@@ -51,7 +51,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Sadrzaj_predavanja":        
         return Sadrzaj_predavanja(queryResults)
     elif intent == "Sadrzaj_vjezbi":        
-        return Sadrzaj_vjezbi(queryResults)                                 
+        return Sadrzaj_vjezbi(queryResults)
+    elif intent == "Ishodi_ucenja_predmeta":        
+        return Ishodi_ucenja_predmeta(queryResults)                                     
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -103,7 +105,12 @@ def Sadrzaj_predavanja(queryResults):
 def Sadrzaj_vjezbi(queryResults):
      nazivKolegija = queryResults['parameters']['naziv_kolegija']
      obavezni = pronadiSadrzajVjezbi(nazivKolegija)
-     return obavezni            
+     return obavezni 
+
+def Ishodi_ucenja_predmeta(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiIshodeUcenja(nazivKolegija)
+     return obavezni                 
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -219,7 +226,7 @@ def pronadiSadrzajVjezbi(nazivKolegija):
          for key, value in reader.items():
              if value['nazivKolegija'].lower() == nazivKolegija.lower():
                  for key2, value2 in value['sadrzajVjezbi'].items():
-                     odgovor += value2['naziv']+", "
+                     odgovor += value2['opis']+", "
                  break        
 
      if len(odgovor) == 0:
@@ -228,3 +235,20 @@ def pronadiSadrzajVjezbi(nazivKolegija):
          odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
 
      return odgovor
+
+def pronadiIshodeUcenja(nazivKolegija):
+     odgovor = ""
+     with open('data/moreData.json',newline='') as json_file:
+         reader = json.load(json_file)
+         for key, value in reader.items():
+             if value['nazivKolegija'].lower() == nazivKolegija.lower():
+                 for key2, value2 in value['ishodiUcenjaPredmeta'].items():
+                     odgovor += value2['opis']+", "
+                 break        
+
+     if len(odgovor) == 0:
+         odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have any learning outcomes. Check your spelling please"
+     else:
+         odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
+
+     return odgovor     
