@@ -192,11 +192,10 @@ def pronadiSadrzajPredavanja(nazivKolegija):
      odgovor = ""
      with open('data/moreData.json',newline='') as json_file:
          reader = json.load(json_file)
-         for zapis in reader:
-             print(zapis)
-             if zapis['nazivKolegija'].lower() == nazivKolegija.lower():
-                 for sadrzaj in zapis['sadrzajPredavanja']:
-                     odgovor += sadrzaj['naziv']+", "
+         for key, value in reader:)
+             if value['nazivKolegija'].lower() == nazivKolegija.lower():
+                 for key2, value2 in value['sadrzajPredavanja']:
+                     odgovor += value2['naziv']+", "
 
      if len(odgovor) == 0:
          odgovor = "I'm sorry but I don't have that subject in my database. Check your spelling please"
