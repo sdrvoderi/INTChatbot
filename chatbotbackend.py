@@ -262,16 +262,21 @@ def pronadiIshodeUcenja(nazivKolegija):
 
 def pronadiPreduvjete(nazivKolegija):
      odgovor = ""
+     pronadeniKolegij = False
      with open('data/moreData.json',newline='') as json_file:
          reader = json.load(json_file)
          for key, value in reader.items():
              if value['nazivKolegija'].lower() == nazivKolegija.lower():
+                 pronadeniKolegij = True
                  for key2, value2 in value['preduvjeti'].items():
                      odgovor += value2['predmet']+", "
                  break        
 
      if len(odgovor) == 0:
-         odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have any prerequisites. Check your spelling please"
+         if pronadeniKolegij is True:
+             odgovor = "The subject does not have any prerequisites."
+         else:    
+             odgovor = "I'm sorry but I don't have that subject in my database.  Check your spelling please"
      else:
          odgovor = f"{nazivKolegija} prerequisites are {odgovor[:-2]}" 
 
