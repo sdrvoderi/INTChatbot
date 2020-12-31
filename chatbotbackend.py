@@ -49,7 +49,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Nastavnici_na_kolegiju":        
         return Nastavnici_na_kolegiju(queryResults)
     elif intent == "Sadrzaj_predavanja":        
-        return Sadrzaj_predavanja(queryResults)                            
+        return Sadrzaj_predavanja(queryResults)
+    elif intent == "Sadrzaj_vjezbi":        
+        return Sadrzaj_vjezbi(queryResults)                                 
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -96,7 +98,12 @@ def Nastavnici_na_kolegiju(queryResults):
 def Sadrzaj_predavanja(queryResults):
      nazivKolegija = queryResults['parameters']['naziv_kolegija']
      obavezni = pronadiSadrzajPredavanja(nazivKolegija)
-     return obavezni       
+     return obavezni
+
+def Sadrzaj_vjezbi(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiSadrzajVjezbi(nazivKolegija)
+     return obavezni            
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -199,7 +206,24 @@ def pronadiSadrzajPredavanja(nazivKolegija):
                  break        
 
      if len(odgovor) == 0:
-         odgovor = "I'm sorry but I don't have that subject in my database. Check your spelling please"
+         odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have lectures. Check your spelling please"
+     else:
+         odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
+
+     return odgovor
+
+def pronadiSadrzajVjezbi(nazivKolegija):
+     odgovor = ""
+     with open('data/moreData.json',newline='') as json_file:
+         reader = json.load(json_file)
+         for key, value in reader.items():
+             if value['nazivKolegija'].lower() == nazivKolegija.lower():
+                 for key2, value2 in value['sadrzajVjezbi'].items():
+                     odgovor += value2['naziv']+", "
+                 break        
+
+     if len(odgovor) == 0:
+         odgovor = "I'm sorry but I don't have that subject in my database or the subject does not have excercises. Check your spelling please"
      else:
          odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
 
