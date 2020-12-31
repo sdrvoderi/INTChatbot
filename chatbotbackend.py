@@ -193,7 +193,7 @@ def pronadiSadrzajPredavanja(nazivKolegija):
      with open('data/moreData.json',newline='') as json_file:
          reader = json.load(json_file)
          for zapis in reader:
-             print(zapis['nazivKolegija'].lower())
+             print(zapis)
              if zapis['nazivKolegija'].lower() == nazivKolegija.lower():
                  for sadrzaj in zapis['sadrzajPredavanja']:
                      odgovor += sadrzaj['naziv']+", "
