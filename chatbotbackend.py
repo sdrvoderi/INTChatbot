@@ -47,7 +47,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Broj_ECTS-a":        
         return Broj_ECTS(queryResults)
     elif intent == "Nastavnici_na_kolegiju":        
-        return Nastavnici_na_kolegiju(queryResults)                        
+        return Nastavnici_na_kolegiju(queryResults)
+    elif intent == "Sadrzaj_predavanja":        
+        return Sadrzaj_predavanja(queryResults)                            
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -89,7 +91,12 @@ def Broj_ECTS(queryResults):
 def Nastavnici_na_kolegiju(queryResults):
      nazivKolegija = queryResults['parameters']['naziv_kolegija']
      obavezni = pronadiNastavnike(nazivKolegija)
-     return obavezni     
+     return obavezni    
+
+def Sadrzaj_predavanja(queryResults):
+     nazivKolegija = queryResults['parameters']['naziv_kolegija']
+     obavezni = pronadiSadrzajPredavanja(nazivKolegija)
+     return obavezni       
 
 def pronadiSmjerove(vrstaStudija):
      pronadeniSmjerovi = []
@@ -179,4 +186,20 @@ def pronadiNastavnike(nazivKolegija):
          for zapis in reader:
              if zapis['Naziv'].lower() == nazivKolegija.lower():
                      return f"{zapis['Naziv']} is being lectured by {zapis['Nastavnici']}"
-     return  "I'm sorry but I don't have that subject in my database. Check your spelling please"       
+     return  "I'm sorry but I don't have that subject in my database. Check your spelling please" 
+
+def pronadiSadrzajPredavanja(nazivKolegija):
+     odgovor = ""
+     with open('data/moreData.json',newline='') as json_file:
+         reader = json.load(json_file)
+         for zapis in reader:
+             if zapis['nazivKolegija'].lower() == nazivKolegija.lower():
+                 for sadrzaj in zapis['sadrzajPredavanja']:
+                     odgovor += sadrzaj['naziv']+", "
+
+     if len(odgovor) == 0:
+         odgovor = "I'm sorry but I don't have that subject in my database. Check your spelling please"
+     else:
+         odgovor = f"{nazivKolegija} contents are {odgovor[:-2]}" 
+
+     return odgovor
