@@ -1,6 +1,8 @@
 from flask import Flask, request
 import json
 import csv
+import feedparser
+import random
 app = Flask(__name__)
 
 @app.route("/")
@@ -55,7 +57,9 @@ def intentRecognizer(queryResults,intent):
     elif intent == "Ishodi_ucenja_predmeta":        
         return Ishodi_ucenja_predmeta(queryResults)
     elif intent == "Preduvjeti_za_predmet":        
-        return Preduvjeti_za_predmet(queryResults)                                         
+        return Preduvjeti_za_predmet(queryResults)
+    elif intent == "Novosti":        
+        return Novosti()                                             
                            
 def Smjerovi_Studija(queryResults):
      vrstaStudija = queryResults['parameters']['vrsta_studija']
@@ -281,3 +285,13 @@ def pronadiPreduvjete(nazivKolegija):
          odgovor = f"{nazivKolegija} prerequisites are {odgovor[:-2]}" 
 
      return odgovor 
+
+def Novosti():
+     feed = feedparser.parse('https://www.foi.unizg.hr/hr/novosti/rss')
+     entries = feed.entries
+     if len(entries) > 0:
+         novost = random.choice(entries)
+         odgovor = f"Time: {novost.published} \n News headline: {novost.title}"
+     else:
+         odgovor = "There is no news at this time!"   
+     return odgovor      
