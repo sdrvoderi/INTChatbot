@@ -291,7 +291,7 @@ def Novosti():
      entries = feed.entries
      if len(entries) > 0:
          novost = random.choice(entries)
-         odgovor = f"Time: {novost.published} \n News headline: {novost.title}"
+         odgovor = f"I found this news! \nTime: {novost.published} \nNews headline: {novost.title}\nLink: {novost.link}"
      else:
          odgovor = "There is no news at this time!"   
      return odgovor      
